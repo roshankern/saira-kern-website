@@ -5,77 +5,27 @@ import InfoCircle from '@/components/InfoCircle';
 const infoCircles = [
   {
     x: 8,
-    y: 30,
+    y: 20,
     name: 'Favorites',
-    info: (
-      <div className="text-left space-y-4">
-        <div>
-          <h3 className="font-semibold text-foreground mb-2">Movies:</h3>
-          <ul className="list-disc list-inside space-y-1">
-            <li>Interstellar</li>
-            <li>Inception</li>
-            <li>Tenet</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-semibold text-foreground mb-2">Artists:</h3>
-          <ul className="list-disc list-inside space-y-1">
-            <li>Wheezy</li>
-            <li>Metro</li>
-            <li>Rufus Du Sol</li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-semibold text-foreground mb-2">Drinks:</h3>
-          <ul className="list-disc list-inside space-y-1">
-            <li>Water</li>
-            <li>Pink Lemonade</li>
-          </ul>
-        </div>
-      </div>
-    ),
+    info: <p>Content coming soon.</p>,
   },
   {
-    x: 82, // 100 - 21 (converting from right to left)
+    x: 82,
     y: 80,
-    name: 'Medicine',
-    info: (
-      <div className="text-left space-y-4">
-        <p>I'm passionate about medicine and healthcare. I love helping people!</p>
-        <p>During my time at CWRU, I've volunteered at MedWish, shadowed at the Cleveland Clinic, and completed research in the Tesar Lab.</p>
-      </div>
-    ),
+    name: 'Racing',
+    info: <p>Content coming soon.</p>,
   },
   {
-    x: 40,
-    y: 60, // 100 - 18 (converting from bottom to top)
+    x: 35,
+    y: 65,
     name: 'About',
-    info: (
-      <div className="text-left space-y-4">
-        <p>Hello! I am Saira, a 22 year old premed student at CWRU. I love hanging out with my family, spending time with my friends, and causing havoc. I'm also a Cleveland native :)</p>
-        <p>Feel free to reach out!</p>
-        <p className="text-center">
-          <a href="mailto:sk@sairakern.com" className="text-[#5B7BA3] hover:underline">sk@sairakern.com</a>
-        </p>
-      </div>
-    ),
+    info: <p>Content coming soon.</p>,
   },
   {
-    x: 20,
-    y: 85,
-    name: 'Athletics',
-    info: (
-      <div className="text-left space-y-4">
-        <p>Athletics have always been a big part of my life. I love the competition and drive that these activities bring out in me:</p>
-        <ul className="list-disc list-inside space-y-1">
-          <li>Tennis</li>
-          <li>Ping Pong</li>
-          <li>Running</li>
-          <li>Lifting</li>
-          <li>Basketball</li>
-        </ul>
-      </div>
-    ),
+    x: 75,
+    y: 20,
+    name: 'Media',
+    info: <p>Content coming soon.</p>,
   },
 ];
 
